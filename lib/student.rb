@@ -42,7 +42,7 @@ class Student
   end
   
   def self.create
-    song = Song.new(name, album)
+    student = Student.new(name, grade)
     song.save
     song
   end
